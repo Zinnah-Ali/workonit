@@ -1,0 +1,788 @@
+/**
+ them name: Fairbizz HTML template
+ Author :ZinnahSoft
+ Support:zinnahkhan824@gmail.com
+ Description:Crative HTML templete
+ Version:1.0
+*/
+
+/** CSS Index 
+ .................................
+ 1.Them defolte css 
+ 2. header
+ 3. slider
+ 4. aboute-area
+ 5. features-box
+ 6. department
+ 7. team 
+ 8. video-area 
+ 9. contact
+ 10. footer
+*/
+
+/* 1.Theme defolte css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+img {
+  max-width: 100%;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.fix {
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #353535;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 10px 0;
+}
+h1 a,
+h2 a,
+h3 a,
+h5 a,
+h6 a {
+  color: #353535;
+}
+a{
+  color: #353535;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 1.2em; 
+}
+h2 {
+  font-size: 50px;
+  line-height: 1.2em;
+}
+h3 {
+  color: #D7D7D7;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+li {
+  list-style: none;
+}
+p {
+  color: #353535;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+
+hr {
+  margin: 30px 0;
+}
+::-moz-selection {
+  color: #fff;
+  background: #444;
+  text-shadow: none;
+}
+::selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+::-moz-placeholder {
+  color: #444;
+  opacity: 1;
+  font-size: 16px;
+}
+::placeholder {
+  color: #444;
+  font-size: 16px;
+  opacity: 1;
+}
+
+section{
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* Main CSS Start */
+/* Header CSS Start */
+.header-area{
+  padding: 20px 0;
+}
+.header-border {
+  border-bottom: 1px solid #B692FF;
+}
+.header-area .header-logo {
+  width: 140px;
+  height: auto;
+  margin-top: -15px;
+}
+
+/* main menu */
+nav ul {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #0A406A;
+  display: block;
+  padding: 0 10px;
+}
+nav ul li:hover > a {
+  color: #9069E0;
+}
+
+ul.grt-menu li a:hover {
+  color: #9069E0;
+  box-shadow: none;
+}
+
+/* Header right menu */
+.header-right-menu .reg-menu{
+  padding: 10px 15px;
+  border: 1px solid #0A406A;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.header-right-menu .reg-menu:hover > a{
+  color: #9069E0;
+  border-color: #9069E0;
+}
+.header-right-menu .log-menu > a{
+  color: #9069E0;
+}
+.header-right-menu .log-menu:hover > a{
+  color: #0A406A;
+}
+/* Main menu end */
+
+
+
+/* banner section css start */
+/* banner section contetn */
+.banner-section{
+  padding: 50px 0;
+}
+.banner-content p{
+  color: #353535;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
+.banner-btn button{
+  padding: 10px 40px;
+  background: #000;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.banner-btn a{
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-style: 22px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.common-btn{
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: none;
+  cursor: pointer; 
+  padding: 10px 60px;
+  display: inline-block;
+  background: #9B51E0;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.banner-btn .btn-01{
+  background-color: #0A406A;
+  border: 1px solid #0A406A;
+}
+.banner-btn .btn-02{
+  background-color: #9B51E0;
+  border: 1px solid #9B51E0;
+}
+.banner-btn .btn-03{
+  background-color: #fff;
+  border: 1px solid #0A406A;
+}
+.banner-btn .btn-03 a{
+  color: #0A406A;
+}
+
+
+/* banner section img */
+.banner-img .img-2{
+  border-radius: 0 0 50% 0;
+  -webkit-border-radius: 0 0 50% 0;
+  -moz-border-radius: 0 0 50% 0;
+  -ms-border-radius: 0 0 50% 0;
+  -o-border-radius: 0 0 50% 0;
+}
+.banner-img-main img{
+  border-radius: 0 50% 0 0;
+  -webkit-border-radius: 0 50% 0 0;
+  -moz-border-radius: 0 50% 0 0;
+  -ms-border-radius: 0 50% 0 0;
+  -o-border-radius: 0 50% 0 0;
+}
+/* Banner css end */
+
+
+
+/* about css start */
+.about-img img{
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  border-radius: 15px 150px 15px 15px;
+  -webkit-border-radius: 15px 150px 15px 15px;
+  -moz-border-radius: 15px 150px 15px 15px;
+  -ms-border-radius: 15px 150px 15px 15px;
+  -o-border-radius: 15px 150px 15px 15px;
+}
+.about-img{
+  position: relative;
+}
+.about-img::before {
+  content: "";
+  height: 100%;
+  width: 20px;
+  background: #fff;
+  padding: 50px 10px;
+  position: absolute;
+  right: 50%;
+}
+/* about css end */
+
+
+/* We do text css start */
+.br{
+  border-right: 1px solid #0A406A;
+}
+.we-do-content-area:nth-child(2){
+  border: none;
+}
+.we-do-text-area{
+  max-width: 60%;
+}
+/* We do text css end */
+
+
+
+/* fb section start */
+.fb-left{
+  height: 470px;
+  background: #0A406A;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.carousel-item img {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.fb-title h2 {
+  padding: 50px 20px;
+}
+.fb-left h2{
+  color: #fff;
+  padding: 40px 10px;
+}
+
+.fb-slider-area .single-item{
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 555px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.fb-slider-area .single-item h2{
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+}
+
+.our-fb .carousel-item h5{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.our-fb .carousel-caption {
+  position: absolute;
+  bottom: 20%;
+}
+
+.our-fb .carousel-control-next {
+  right: 40%;
+  top: 80%;
+  background: #B692FF;
+  opacity: 1;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.our-fb .carousel-control-prev {
+  left: 40%;
+  top: 80%;
+  background: #B692FF;
+  opacity: 1;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.our-fb .carousel-control-next span {
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+
+/* fb section end */
+
+
+
+/* works section start*/
+header {
+  height: 80px;
+}
+.heading h2 {
+  display: inline-block;
+}
+.heading span{
+  color: #9B51E0;
+}
+.heading a.common-btn{
+  margin-left: 10px;
+}
+
+.work-section{
+  margin: 100px 0;
+}
+
+.work-content-area{
+  margin: 60px 0;
+}
+/* works section end*/
+
+
+/* FQAS CSS start */
+.faqs-area{
+  margin: 50px 0;
+}
+.faqs-content .accordion-item{
+  border: none;
+}
+.faqs-content .accordion-header{
+  border-top: 1px solid #353535;
+  padding: 0 20px;
+}
+.faqs-content .accordion-body{
+  padding: 0 40px;
+}
+.faqs-content button{
+  color: #353535;
+  text-align: left;
+  text-decoration: none;
+}
+.faqs-content .card {
+  border: none;
+}
+.faqs-content .card:first-child {
+  border-top: 1px solid #353535;
+}
+.faqs-content .card-header h5 {
+  text-align: left;
+
+}
+.faqs-content .btn-link:hover {
+  color: #353535;
+}
+
+.faqs-content .card-header {
+  padding: 10px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #353535;
+}
+.faqs-content .card-header[aria-expanded='false']:before {
+  content: "+";
+  position: absolute;
+  right: 10px;
+  top: 32%;
+  font-size: 24px;
+  color: #353535;
+}
+.faqs-content .card-header[aria-expanded='true']:before {
+  content: "-";
+  position: absolute;
+  right: 10px;
+  top: 6%;
+  font-size: 30px;
+  color: #353535;
+}
+/* .faqs-content .card-header.btn-link:before {
+  content: "-";
+  position: absolute;
+  right: 10px;
+  top: 32%;
+  font-size: 24px;
+  color: #353535;
+} */
+
+.faqs-content button:focus:not(:focus-visible) {
+  visibility: hidden;
+  opacity: 0;
+  color: #353535;
+}
+.accordion-button:not(.collapsed) {
+  color: #353535;
+  box-shadow: none;
+}
+button.accordion-button {
+  background: #fff !important;
+}
+.accordion-button:not(.collapsed)::after {
+
+  background-image: url("https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png");
+}
+.accordion-button::after {
+  background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png");;
+}
+
+
+
+
+
+
+/* FQAS CSS end */
+
+/* candidate section start */
+a.blue-bg{
+  background: #0A406A;
+}
+
+.candidate-section .main-img{
+  height: 555px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4000000059604645; 
+  background-color: #0A406A;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.candidate-text h2{
+  color: #fff;
+}
+.candidate-text h4{
+  color: #fff;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+.candidate-flex-l{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 555px;
+  background: #0A406A;
+  padding: 20px ;
+  border-radius:0 30px 30px 0;
+  -webkit-border-radius:0 30px 30px 0;
+  -moz-border-radius:0 30px 30px 0;
+  -ms-border-radius:0 30px 30px 0;
+  -o-border-radius:0 30px 30px 0;
+}
+.candidate-right-content-l h4{
+  color: #fff;
+}
+.candidate-right-content-l p{
+  color: #fff;
+}
+.work-title{
+  margin-bottom: 50px;
+}
+
+.candidate-right-content-r h4{
+  color: #fff;
+}
+.candidate-right-content-r p{
+  color: #fff;
+}
+.candidate-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 555px;
+  background: #B692FF;
+  padding: 20px;
+  border-radius: 30px 30px 0 30px;
+  -webkit-border-radius: 30px 30px 0 30px;
+  -moz-border-radius: 30px 30px 0 30px;
+  -ms-border-radius: 30px 30px 0 30px;
+  -o-border-radius: 30px 30px 0 30px;
+}
+/* candidate section end */
+
+
+
+/* Manager Section Start */
+a.btn-border{
+  background: #fff;
+  border: 1px solid #0A406A;
+  color: #0A406A;
+}
+
+.manager-content-text span{
+  font-size: 50px;
+  font-weight: 7000;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 2px 2px 0px #9B51E0, 
+               2px -2px 0px #9B51E0, 
+			   -2px 2px 0px #9B51E0, 
+			   -2px -2px 0px #9B51E0, 
+			   2px 0px 0px #9B51E0, 
+			   0px 2px 0px #9B51E0, 
+			   -2px 0px 0px #9B51E0, 
+			   0px -2px 0px #9B51E0
+}
+
+.manager-content-text h5{
+  font-size: 18px;
+  color: #0A406A;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+/* Manager Section end */
+
+
+/* comminuty css start */
+.commiuty-bg{
+  height: 426px;
+  max-width: 90%;
+  background: #9069E0;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.community-text h2{
+  font-weight: 400;
+  color: #fff;
+}
+.community-text span{
+  font-weight: 700;
+  color: #fff;
+}
+.common-content{
+  margin-top: -350px;
+}
+.common-content .comminuty-img img{
+  border-radius: 30px 30px 0 30px;
+  -webkit-border-radius: 30px 30px 0 30px;
+  -moz-border-radius: 30px 30px 0 30px;
+  -ms-border-radius: 30px 30px 0 30px;
+  -o-border-radius: 30px 30px 0 30px;
+}
+
+.comminuty-btn .reg{
+  background: #0A406A;
+}
+.comminuty-btn .log{
+  background: #fff;
+  color: #0A406A;
+  border: 1px solid #0A406A;
+  margin-left: 10px;
+}
+/* comminuty css end */
+
+
+/* Talk Section CSS start */
+.social-icon i {
+  font-size: 30px;
+  color: #fff;
+  background: #9B51E0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.talk-details span{
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+}
+.big-heading h2{
+  font-size: 150px;
+}
+
+.talk-content-right input{
+  background-color: #0A406A;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.talk-content-right input::placeholder{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.talk-content-right input:focus{
+  background-color: #0A406A;
+  color: #fff;
+  border: 1px solid #0A406A;
+}
+.talk-content-right textarea{
+  background: #0A406A;
+  color: #fff;
+}
+.talk-content-right textarea::placeholder{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.talk-content-right textarea:focus{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.talk-content-right input[type='submit']{
+  background: #0A406A;
+  padding: 10px 50px;
+  border: 1px solid #0A406A;
+  border-radius: 30px ;
+  -webkit-border-radius: 30px ;
+  -moz-border-radius: 30px ;
+  -ms-border-radius: 30px ;
+  -o-border-radius: 30px ;
+}
+/* Talk Section CSS end */
+
+
+/* footer start*/
+footer{
+  background-color: #0A406A;
+  color: #fff;
+  padding:120px 20px ;
+  border-radius: 100% 100% 0 0;
+  -webkit-border-radius: 100% 100% 0 0;
+  -moz-border-radius: 100% 100% 0 0;
+  -ms-border-radius: 100% 100% 0 0;
+  -o-border-radius: 100% 100% 0 0;
+  margin-top: 60px;
+}
+footer h5{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+footer h6{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+footer p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.copy-right p{
+  font-size: 10px;
+  font-weight: 400;
+}
+.copy-right span{
+  font-weight: 700;
+}
+
+.footer-logo img{
+  margin: 20px 0;
+}
+
+.footer-contact span{
+  display: block;
+}
+.footer.social-icon {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+/* footer end*/
+
+
+/* Slider Start*/
+.your-class div{
+  color: red;
+  font-size: 60px;
+  font-weight: 700;
+  z-index: 999999;
+}
+/* Slider end*/

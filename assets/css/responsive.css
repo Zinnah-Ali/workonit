@@ -1,0 +1,249 @@
+/* Normal desktop :992px*/
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* Tablate Layoute :768px*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+  h2 {
+    font-size: 40px;
+    line-height: 1.2em;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.2em;
+  }
+  h4 {
+    font-size: 16px;
+
+  }
+  h5 {
+    font-size: 16px;
+  }
+  p{
+    line-height: 1.3em;
+    font-size: 15px;
+  }
+  
+  /* about btn */
+  .banner-btn button{
+    padding:5px 20px;
+  }
+  .banner-btn a{
+    font-size: 15px;
+  }
+  
+  .banner-section .banner-content p{
+    font-size: 15px;
+  }
+
+  /* facebook section */
+  .fb-left h2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+
+  
+}
+
+/* Small Mobils :320px*/
+@media (max-width: 768px) {
+
+  /* Menu */
+.header-right-none{
+  display: none !important;
+}
+.banner-content {
+  margin: 50px 0;
+}
+.banner-content p {
+  font-size: 14px;
+}
+.about-img img {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -ms-border-radius: 15px 15px 15px 15px;
+  -o-border-radius: 15px 15px 15px 15px;
+}
+
+.fb-left {
+  display: flex;
+  align-items: center;
+}
+
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+
+  .br{
+    border: none;
+  }
+  .accordion-header {
+    line-height: 1.0em;
+}
+a.common-btn{
+  padding: 5px 30px;
+  font-size: 14px;
+}
+  .we-do-text p {
+    font-size: 14px;
+}
+.we-do-text-area{
+  max-width: 100%;
+}
+.we-do-btn-click a {
+  font-size: 14px;
+  text-decoration: none;
+}
+.we-do-btn-click span{
+  font-size: 12px;
+}
+
+
+/* Our fb section */
+.fb-left{
+  height: 300px;
+  margin: 20px 0;
+}
+.fb-left h2{
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.faqs-content .card-header h5 {
+  max-width: 90%;
+}
+.our-fb .carousel-item h5 {
+  font-size: 16px;
+}
+.our-fb .carousel-control-next {
+  right: 35%;
+  height: 30px;
+  width: 30px;
+}
+.our-fb .carousel-control-prev {
+  left: 35%;
+  height: 30px;
+  width: 30px;
+}
+.our-fb .carousel-control-next span {
+  font-size: 5px;
+}
+/* work content */
+.work-content{
+  margin: 10px 0;  
+}
+
+.work-content-area {
+  margin: 10px 0;
+}
+.candidate-section .main-img {
+  margin-bottom: 20px;
+}
+.candidate-section h2{
+  font-size: 22px;
+}
+.candidate-section p{
+  font-size: 14px;
+}
+.manager-content-text {
+  margin: 0;
+}
+.manager-section a.common-btn.btn-border {
+  margin: 0;
+}
+/* community css */
+.commiuty-bg {
+  display: none;
+}
+.common-content {
+  margin-top: 0;
+}
+.community-text h2 {
+  color: #000;
+  font-size: 18px;
+}
+.comminuty-btn {
+  margin: 0;
+}
+
+/* Talks area */
+.big-heading h2 {
+  font-size: 40px;
+}
+.talk-details span {
+  font-size: 14px;
+}
+.social-icon i {
+  font-size: 20px;
+  height: 35px;
+  width: 35px;
+}
+.talk-content-right input {
+  font-weight: 400;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+.talk-content-right input::placeholder{
+  font-size: 14px;
+}
+.talk-content-right textarea::placeholder{
+  font-size: 14px;
+}
+/* footer */
+footer{
+  background-color: #0A406A;
+  color: #fff;
+  padding:120px 20px ;
+  border-radius: inherit;
+  -webkit-border-radius: inherit;
+  -moz-border-radius: inherit;
+  -ms-border-radius: inherit;
+  -o-border-radius: inherit;
+}
+footer{
+  padding: 50px 0;
+}
+.footer-contact{
+  margin-bottom: 20px;
+}
+
+.footer.social-icon {
+  flex-direction: row;
+  column-gap: 16px;
+}
+.footer-logo img {
+  margin: 10px 0;
+  max-width: 180px;
+}
+
+footer p{
+  font-size: 14px;
+}
+
+
+
+}
+
+/* Large Mobile Layoute :480px*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .content {
+    min-width: 450px;
+  }
+}
